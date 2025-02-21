@@ -274,7 +274,7 @@ canvas{
 header {
     border-radius: 30px;
     background: var(--section-background);
-    padding: 10px 30px;
+    padding: 6px 30px;
     margin: 30px 0 30px auto;
     display: flex;
     align-items: center;
@@ -377,8 +377,20 @@ body.dark-mode .hireMe-svg-side {
     display: none;
 }
 .logo {
-    filter: var(--icons-filter);
-    width: 260px;
+    /*filter: var(--icons-filter);*/
+    /*filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(269deg) brightness(101%) contrast(104%);*/
+    width: 500px;
+    height: 60px;
+    /*border-top: 2px solid var(--btn-border);*/
+    /*border-right: 4px solid var(--btn-border);*/
+    /*border-bottom: 4px solid var(--btn-border);*/
+    /*border-left: 2px solid var(--btn-border);*/
+    border-radius: 20px;
+    /*transition: all 0.3s ease-in-out;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    background-color: white;
+    padding: 10px;
 }
 .aryaBtn img {
     filter: var(--icons-filter);
