@@ -250,6 +250,51 @@ function activeMenu() {
 activeMenu();
 window.addEventListener("scroll", activeMenu);
 
+//handle click on li to scroll to section
+document.querySelectorAll(".menu-btn a").forEach((item) => {
+    item.addEventListener("click", (event) => {
+        event.preventDefault(); // Prevent default anchor behavior
+        const targetSection = document.querySelector(item.getAttribute("href"));
+        if (targetSection) {
+            window.scrollTo({
+                top: targetSection.offsetTop,
+                behavior: "smooth"
+            });
+        } else {
+            console.log("Section not found:", item.getAttribute("href"));
+        }
+    });
+});
+
+document.querySelectorAll(".md-menu-btn a").forEach((item) => {
+    item.addEventListener("click", (event) => {
+        event.preventDefault(); // Prevent default anchor behavior
+
+        // Get header height dynamically and handle mobile vs desktop
+        const header = document.querySelector('#mainHeader');
+        const headerHeight = header.offsetHeight || 97; // Default to 97px if headerHeight is undefined
+
+        // Check for mobile view and adjust header height if necessary (e.g., if the header height changes)
+        const isMobile = window.innerWidth <= 768; // Adjust the mobile breakpoint as needed
+        const adjustedHeaderHeight = isMobile ? headerHeight : headerHeight;
+
+        const targetSection = document.querySelector(item.getAttribute("href"));
+
+        if (targetSection) {
+            console.log('Scrolling to section:', targetSection);
+
+            // Adjust scroll position by considering the dynamic header height for mobile
+            window.scrollTo({
+                top: targetSection.getBoundingClientRect().top + window.scrollY - adjustedHeaderHeight,
+                behavior: "smooth"
+            });
+        } else {
+            console.log("Section not found:", item.getAttribute("href"));
+        }
+    });
+});
+
+
 /*-------------------------------------main background slider-------------------------------------*/
 $('.slider-main').slick({
     dots: false,

@@ -59,7 +59,7 @@
         <!-- ====================================== Header ===================================== -->
         <div class="container" id="mainHeader">
             <header>
-                <a href="index-1.html" class="main-header-logo">
+                <a href="index.html" class="main-header-logo">
                     <img class="logo" src="assets/images/svg/logo.svg" alt="logo">
                 </a>
                 <div class="aryaBtn-toggle-main mt-0">
@@ -101,11 +101,11 @@
             <div class="row main-row">
                 <div class="col-xxl-3 col-xl-3 col-lg-4">
                     <div class="side-menu-main">
-                        <a href="index-1.html" class="side-menu-two-logo">
+                        <a href="index.html" class="side-menu-two-logo">
                             <img class="logo" src="assets/images/svg/logo.svg" alt="logo">
                         </a>
                         <div class="portfolio-girl-menu-main animated wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="10ms">
-                            <img src="assets/images/home-images/portfolio-girl-menu.jpg" draggable="false" alt="">
+                            <img width="210" height="210" src="assets/images/home-images/portfolio-girl-menu.jpg" draggable="false" alt="">
 <!--                            <img src="https://dummyimage.com/210x210/000/fff" alt="portfolio-girl-menu">-->
                         </div>
                         <div class="list-menu mb-2 mt-2">
@@ -122,28 +122,28 @@
                             </div>
                         </div>
                         <div class="list-menu menu-list-main d-xl-none mb-2">
-                            <ul class="side-menu-ul">
-                                <li>
+                            <ul id="md-menu" class="side-menu-ul">
+                                <li class="md-menu-btn">
                                     <a href="#home">HOME<img src="assets/images/svg/home.svg" alt="home"></a>
                                 </li>
-                                <li>
+                                <li class="md-menu-btn">
                                     <a href="#about">ABOUT ME<img src="assets/images/svg/about.svg" alt="about"></a>
                                 </li>
-                                <li>
+                                <li class="md-menu-btn">
                                     <a href="#services">SERVICES<img src="assets/images/svg/services.svg"
                                             alt="services"></a>
                                 </li>
-                                <li>
+                                <li class="md-menu-btn">
                                     <a href="#portfolio">PORTFOLIO<img src="assets/images/svg/portfolio.svg"
                                             alt="portfolio"></a>
                                 </li>
-                                <li>
+                                <li class="md-menu-btn">
                                     <a href="#resume">RESUME<img src="assets/images/svg/resume.svg" alt="resume"></a>
                                 </li>
-                                <li>
+                                <li class="md-menu-btn">
                                     <a href="#blog">BLOG<img src="assets/images/svg/blog.svg" alt="blog"></a>
                                 </li>
-                                <li>
+                                <li class="md-menu-btn">
                                     <a href="#contact">CONTACT<img src="assets/images/svg/contact.svg"
                                             alt="contact"></a>
                                 </li>
@@ -324,162 +324,223 @@
                         </div>
                         <div class="tabContainer">
                             <div id="one" class="Tabcondent tab-active">
+                                <div class="d-flex justify-content-between">
+                                    <div class="gallery">
+                                        <div class="gallery-item border rounded-4">
+                                            <div class="gallery-item-sub" data-bs-toggle="modal"
+                                                 data-bs-target="#rumdolModal">
+                                                <img src="assets/images/home-images/rumdol.jpg" alt="rumdol">
+                                                <div class="overlay">
+                                                    <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                         class="vimeo-icon">
+                                                    <p class="overlay-text">Rumdul Store <br> Multi-Vendor E-Commerce</p>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-info p-3">
+                                                <h3>Rumdul Store <br> Multi-Vendor E-Commerce</h3>
+                                                <p>Web & API</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gallery">
+                                        <div class="gallery-item border rounded-4">
+                                            <div class="gallery-item-sub" data-bs-toggle="modal"
+                                                 data-bs-target="#exampleModal">
+                                                <img src="assets/images/home-images/speediz.jpg" alt="speediz">
+                                                <div class="overlay">
+                                                    <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                         class="vimeo-icon">
+                                                    <p class="overlay-text">Speediz <br> Delivery Service Platform</p>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-info p-3">
+                                                <h3>Speediz <br> Delivery Service Platform</h3>
+                                                <p>Web & API</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="gallery">
-                                    <div class="gallery-item">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/web.svg" alt="content-svg"
-                                                    class="vimeo-icon">
-                                                <p class="overlay-text">Rumdul Store <br> Multi-Vendor E-Commerce</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>Rumdul Store <br> Multi-Vendor E-Commerce</h3>
-                                            <p>Web & API</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="two" class="Tabcondent">
-                                <div class="gallery flex-nowrap">
-                                    <div class="gallery-item mb-0">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/mobile.svg" alt="content-svg"
-                                                    class="vimeo-icon">
-                                                <p class="overlay-text">To Be Release Soon</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>To Be Release Soon</h3>
-                                            <p>Mobile</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="three" class="Tabcondent">
-                                <div class="gallery flex-nowrap">
-                                    <div class="gallery-item">
+                                    <div class="gallery-item border rounded-4">
                                         <div class="gallery-item-sub" data-bs-toggle="modal"
                                              data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/web.svg" alt="content-svg"
-                                                     class="vimeo-icon">
-                                                <p class="overlay-text">Rumdul Store <br> Multi-Vendor E-Commerce</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>Rumdul Store <br> Multi-Vendor E-Commerce</h3>
-                                            <p>Web & API</p>
-                                        </div>
-                                    </div>
-                                    <div class="gallery-item">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                             data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/web.svg" alt="content-svg"
-                                                     class="vimeo-icon">
-                                                <p class="overlay-text">Speediz <br> Delivery Service Platform</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>Speediz <br> Delivery Service Platform</h3>
-                                            <p>Web & API</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery flex-nowrap">
-                                    <div class="gallery-item">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                             data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/web.svg" alt="content-svg"
-                                                     class="vimeo-icon">
-                                                <p class="overlay-text">To Be Release Soon</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>To Be Release Soon</h3>
-                                            <p>Web & API</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="four" class="Tabcondent">
-                                <div class="gallery flex-nowrap">
-                                    <div class="gallery-item">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                             data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/web.svg" alt="content-svg"
-                                                     class="vimeo-icon">
-                                                <p class="overlay-text">Rumdul Store <br> Multi-Vendor E-Commerce</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>Rumdul Store <br> Multi-Vendor E-Commerce</h3>
-                                            <p>Web & API</p>
-                                        </div>
-                                    </div>
-                                    <div class="gallery-item">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                             data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/web.svg" alt="content-svg"
-                                                     class="vimeo-icon">
-                                                <p class="overlay-text">Speediz <br> Delivery Service Platform</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>Speediz <br> Delivery Service Platform</h3>
-                                            <p>Web & API</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="gallery flex-nowrap">
-                                    <div class="gallery-item">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                             data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
-                                            <div class="overlay">
-                                                <img src="assets/images/svg/web.svg" alt="content-svg"
-                                                     class="vimeo-icon">
-                                                <p class="overlay-text">To Be Release Soon</p>
-                                            </div>
-                                        </div>
-                                        <div class="gallery-info">
-                                            <h3>To Be Release Soon</h3>
-                                            <p>Web & API</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="five" class="Tabcondent">
-                                <div class="gallery flex-nowrap">
-                                    <div class="gallery-item">
-                                        <div class="gallery-item-sub" data-bs-toggle="modal"
-                                             data-bs-target="#exampleModal">
-                                            <img src="assets/images/home-images/project-img1.jpg" alt="project-img1">
+                                            <img src="assets/images/home-images/coming.jpg" alt="plastic-machine">
                                             <div class="overlay">
                                                 <img src="assets/images/svg/web.svg" alt="content-svg"
                                                      class="vimeo-icon">
                                                 <p class="overlay-text">Plastic Recycling Machine</p>
                                             </div>
                                         </div>
-                                        <div class="gallery-info">
+                                        <div class="gallery-info p-3">
                                             <h3>Plastic Recycling Machine</h3>
                                             <p>Machine & Electronic</p>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="load-more-btn">
+                                    <a href="#" class="aryaBtn">
+                                        Load More <img src="assets/images/svg/load-more.svg" alt="load-more">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="two" class="Tabcondent">
+                                <div class="gallery flex-nowrap">
+                                    <div class="gallery-item mb-0 border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            <img src="assets/images/home-images/coming.jpg" alt="project-img1">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/mobile.svg" alt="content-svg"
+                                                    class="vimeo-icon">
+                                                <p class="overlay-text">To Be Release Soon</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>To Be Release Soon</h3>
+                                            <p>Mobile</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="load-more-btn">
+                                    <a href="#" class="aryaBtn">
+                                        Load More <img src="assets/images/svg/load-more.svg" alt="load-more">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="three" class="Tabcondent">
+                                <div class="gallery flex-nowrap">
+                                    <div class="gallery-item border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                             data-bs-target="#rumdolModal">
+                                            <img src="assets/images/home-images/rumdol.jpg" alt="rumdol">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                     class="vimeo-icon">
+                                                <p class="overlay-text">Rumdul Store <br> Multi-Vendor E-Commerce</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>Rumdul Store <br> Multi-Vendor E-Commerce</h3>
+                                            <p>Web & API</p>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-item border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                             data-bs-target="#exampleModal">
+                                            <img src="assets/images/home-images/speediz.jpg" alt="speediz">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                     class="vimeo-icon">
+                                                <p class="overlay-text">Speediz <br> Delivery Service Platform</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>Speediz <br> Delivery Service Platform</h3>
+                                            <p>Web & API</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery flex-nowrap">
+                                    <div class="gallery-item border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                             data-bs-target="#exampleModal">
+                                            <img src="assets/images/home-images/coming.jpg" alt="coming">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                     class="vimeo-icon">
+                                                <p class="overlay-text">To Be Release Soon</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>To Be Release Soon</h3>
+                                            <p>Web & API</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="load-more-btn">
+                                    <a href="#" class="aryaBtn">
+                                        Load More <img src="assets/images/svg/load-more.svg" alt="load-more">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="four" class="Tabcondent">
+                                <div class="gallery flex-nowrap">
+                                    <div class="gallery-item border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                             data-bs-target="#rumdolModal">
+                                            <img src="assets/images/home-images/rumdol.jpg" alt="rumdol">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                     class="vimeo-icon">
+                                                <p class="overlay-text">Rumdul Store <br> Multi-Vendor E-Commerce</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>Rumdul Store <br> Multi-Vendor E-Commerce</h3>
+                                            <p>Web & API</p>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-item border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                             data-bs-target="#exampleModal">
+                                            <img src="assets/images/home-images/speediz.jpg" alt="speediz">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                     class="vimeo-icon">
+                                                <p class="overlay-text">Speediz <br> Delivery Service Platform</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>Speediz <br> Delivery Service Platform</h3>
+                                            <p>Web & API</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery flex-nowrap">
+                                    <div class="gallery-item border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                             data-bs-target="#exampleModal">
+                                            <img src="assets/images/home-images/coming.jpg" alt="coming">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                     class="vimeo-icon">
+                                                <p class="overlay-text">To Be Release Soon</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>To Be Release Soon</h3>
+                                            <p>Web & API</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="load-more-btn">
+                                    <a href="#" class="aryaBtn">
+                                        Load More <img src="assets/images/svg/load-more.svg" alt="load-more">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="five" class="Tabcondent">
+                                <div class="gallery flex-nowrap">
+                                    <div class="gallery-item border rounded-4">
+                                        <div class="gallery-item-sub" data-bs-toggle="modal"
+                                             data-bs-target="#exampleModal">
+                                            <img src="assets/images/home-images/coming.jpg" alt="coming">
+                                            <div class="overlay">
+                                                <img src="assets/images/svg/web.svg" alt="content-svg"
+                                                     class="vimeo-icon">
+                                                <p class="overlay-text">Plastic Recycling Machine</p>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-info p-3">
+                                            <h3>Plastic Recycling Machine</h3>
+                                            <p>Machine & Electronic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="load-more-btn">
+                                    <a href="#" class="aryaBtn">
+                                        Load More <img src="assets/images/svg/load-more.svg" alt="load-more">
+                                    </a>
                                 </div>
                             </div>
                             <!-- Content Modal -->
@@ -542,62 +603,69 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Gallery Modal -->
-                            <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+
+                            <!-- Rumdol Modal -->
+                            <div class="modal fade" id="rumdolModal" tabindex="-1" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
+                                                    aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p class="spce-in-text text-gallery">Gallery</p>
-                                            <div class="gallery-main-card">
-                                                <a href="assets/images/gallery/gallery-img1.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 1">
-                                                    <img src="assets/images/gallery/gallery-img1.jpg"
-                                                        alt="gallery-img1">
-                                                </a>
-                                                <a href="assets/images/gallery/gallery-img2.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 2">
-                                                    <img src="assets/images/gallery/gallery-img2.jpg"
-                                                        alt="gallery-img2">
-                                                </a>
-                                                <a href="assets/images/gallery/gallery-img3.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 3">
-                                                    <img src="assets/images/gallery/gallery-img3.jpg"
-                                                        alt="gallery-img3">
-                                                </a>
-                                                <a href="assets/images/gallery/gallery-img4.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 4">
-                                                    <img src="assets/images/gallery/gallery-img4.jpg"
-                                                        alt="gallery-img4">
-                                                </a>
-                                                <a href="assets/images/gallery/gallery-img5.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 5">
-                                                    <img src="assets/images/gallery/gallery-img5.jpg"
-                                                        alt="gallery-img5">
-                                                </a>
-                                                <a href="assets/images/gallery/gallery-img6.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 6">
-                                                    <img src="assets/images/gallery/gallery-img6.jpg"
-                                                        alt="gallery-img6">
-                                                </a>
-                                                <a href="assets/images/gallery/gallery-img7.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 7">
-                                                    <img src="assets/images/gallery/gallery-img7.jpg"
-                                                        alt="gallery-img5">
-                                                </a>
-                                                <a href="assets/images/gallery/gallery-img8.jpg" data-fancybox="gallery"
-                                                    data-caption="Caption Images 8">
-                                                    <img src="assets/images/gallery/gallery-img8.jpg"
-                                                        alt="gallery-img8">
-                                                </a>
+                                            <img class="content-img" src="assets/images/home-images/rumdul-content.jpg"
+                                                 alt="content-img">
+                                            <p class="spce-in-text">Rumdul Store | Multi-Vendor E-Commerce</p>
+                                            <p class="spce-in-Content">Web & API</p>
+                                            <div class="corporate_main">
+                                                <div class="cuberto_main">
+                                                    <p class="created_by">Created By :</p>
+                                                    <p class="cuberto">La Seavyong<br>Song Lyna</p>
+                                                </div>
+                                                <div class="cuberto_main">
+                                                    <p class="created_by">Date :</p>
+                                                    <p class="cuberto">01/10/2024</p>
+                                                </div>
+                                                <div class="cuberto_main">
+                                                    <p class="created_by">For :</p>
+                                                    <p class="cuberto">WCT Course | ITE</p>
+                                                </div>
+                                                <div class="cuberto_main">
+                                                    <p class="created_by">Categories :</p>
+                                                    <p class="cuberto">Web | API</p>
+                                                </div>
                                             </div>
+                                            <p class="ipsum mb-2">
+                                                Rumdul Store is a multi-vendor e-commerce platform that allows
+                                                vendors to sell their perfume products online. The platform is designed to
+                                                provide a seamless shopping experience for customers and a user-friendly
+                                                interface for vendors to manage their products and orders.
+                                            </p>
+                                            <p class="ipsum">
+                                                The platform features a responsive design that adapts to different screen
+                                                sizes and devices, making it easy for customers to shop on their desktops,
+                                                tablets, and smartphones. The platform also includes a secure payment
+                                                gateway that allows customers to pay for their orders online using credit
+                                                cards or other payment methods.
+                                            </p>
+                                            <div class="plumbing-grid">
+                                                <img src="assets/images/home-images/rumdol/1.jpg"
+                                                     alt="single-blog-img3">
+                                                <img src="assets/images/home-images/rumdol/2.jpg"
+                                                     alt="single-blog-img4">
+                                            </div>
+                                            <p class="ipsum">
+                                                for wct course
+                                                This project was developed as part of the Web and Cloud Technologies course
+                                                at the Royal University of Phnom Penh, Cambodia. The project was developed by
+                                                La Seavyong and Song Lyna, group students in the course, and was completed in
+                                                October 2024.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </section>
                     <!-- ====================================== Section-Six ===================================== -->
@@ -673,28 +741,28 @@
                             <h2 class="creative brand pb-0 fade_down">Design <span>Skills</span></h2>
                             <div class="design-skill-sub-section">
                                 <div class="design-skills-img-main flip_up show">
-                                    <img src="assets/images/home-images/figma-img.png" alt="figma-img">
+                                    <img width="44" src="assets/images/home-images/android.png" alt="android">
                                     <div class="skill-counter-main">
                                         <p>95%</p>
                                         <p>Android</p>
                                     </div>
                                 </div>
                                 <div class="design-skills-img-main photoshop flip_up show">
-                                    <img src="assets/images/home-images/photoshop-img.png" alt="photoshop-img">
+                                    <img width="44" src="assets/images/home-images/nuxt.png" alt="nuxt">
                                     <div class="skill-counter-main photoshop-text">
                                         <p>90%</p>
                                         <p>Nuxt/VueJS</p>
                                     </div>
                                 </div>
                                 <div class="design-skills-img-main adobe-xd flip_up show">
-                                    <img src="assets/images/home-images/adobe-xd-img.png" alt="adobe-xd-img">
+                                    <img width="44" src="assets/images/svg/laravel.svg" alt="laravel">
                                     <div class="skill-counter-main adobe-xd-text">
                                         <p>88%</p>
                                         <p>Laravel</p>
                                     </div>
                                 </div>
                                 <div class="design-skills-img-main sketch flip_up show">
-                                    <img src="assets/images/home-images/figma-img.png" alt="sktech-img">
+                                    <img width="44" src="assets/images/home-images/figma-img.png" alt="sktech-img">
                                     <div class="skill-counter-main sketch-text">
                                         <p>85%</p>
                                         <p>Design</p>
@@ -711,9 +779,10 @@
                                             <div class="flip-box-front">
                                                 <div class="inner">
                                                     <div class="years-award-img">
-                                                        <img class="winner-award"
-                                                            src="assets/images/home-images/winner-award.png"
-                                                            alt="winner-award">
+                                                        <img
+                                                            width="100"
+                                                            src="assets/images/home-images/atc.png"
+                                                            alt="atc">
                                                         <p class="award-yer">2024</p>
                                                     </div>
                                                     <p class="award-interior">Humanoid Award</p>
@@ -735,18 +804,18 @@
                                                 <div class="inner">
                                                     <div class="years-award-img">
                                                         <img class="winner-award"
-                                                            src="assets/images/home-images/winner-award2.png"
+                                                             width="200"
+                                                            src="assets/images/home-images/e-day-2023.png"
                                                             alt="winner-award2">
-                                                        <p class="award-yer">2024</p>
+                                                        <p class="award-yer">2023</p>
                                                     </div>
-                                                    <p class="award-interior">Engineering Day 2024</p>
+                                                    <p class="award-interior">Engineering Day 2023</p>
                                                     <p class="award-winner-text">Second Place Winner</p>
                                                 </div>
                                             </div>
                                             <div class="flip-box-back">
                                                 <div class="inner">
-                                                    <p class="flip-back-text">Lorem ipsum dolor sit amet consectetur,
-                                                        adipisicing elit. Sit, perferendis!</p>
+                                                    <p class="flip-back-text">Winning Second Place of The Best Poster Year 1 of Engineering Day 2023!</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -760,18 +829,19 @@
                         <h3 class="creative brand fade_down">Latest <span>Blog</span></h3>
                         <h3 class="visionary fade_down">Our happy customers give us impactful and positive feedback on
                             our services customer support & etc.</h3>
-                        <div class="row blog-row">
-                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                                <div class="blog-box" data-bs-toggle="modal" data-bs-target="#BlogModal">
-                                    <p class="date-blog">March 01, 2025</p>
-                                    <h3 class="blog-title">How to Build Desktop Apps with HTML, CSS and JavaScript</h3>
-                                    <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.
-                                        Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.
-                                    </p>
-                                    <img class="blog-img" src="assets/images/home-images/blog-img6.jpg" alt="blog-img6">
-                                </div>
-                            </div>
-                        </div>
+                        <div class="phone-num text-center">Coming Soon!</div>
+<!--                        <div class="row blog-row">-->
+<!--                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">-->
+<!--                                <div class="blog-box" data-bs-toggle="modal" data-bs-target="#BlogModal">-->
+<!--                                    <p class="date-blog">March 01, 2025</p>-->
+<!--                                    <h3 class="blog-title">How to Build Desktop Apps with HTML, CSS and JavaScript</h3>-->
+<!--                                    <p class="Integer-blog">Integer ultrices potenti ornare pulvinar id ultrices nec.-->
+<!--                                        Amet ornare vestibulum in cursus. Ut a at posuere mauris aenean a purus aliquet.-->
+<!--                                    </p>-->
+<!--                                    <img class="blog-img" src="assets/images/home-images/blog-img6.jpg" alt="blog-img6">-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
                         <div class="load-more-btn">
                             <a href="#" class="aryaBtn">
                                 Load More <img src="assets/images/svg/load-more.svg" alt="load-more">
@@ -853,10 +923,8 @@
                     </div>
                     <!-- ====================================== Section Nine ===================================== -->
                     <section class="section-nine active_menus dashed-border" id="contact">
-                        <h3 class="creative brand fade_down">Let’s Talk <span> With Us</span></h3>
-                        <h3 class="visionary fade_down">We are the top creative agency for branding corp. We offer a
-                            full range of services to help clients improve their search engine rankings and drive more
-                            traffic to their websites.</h3>
+                        <h3 class="creative brand fade_down">Let’s Talk <span> With Me</span></h3>
+                        <h3 class="visionary fade_down">Place an order for Green Tea and engage in a conversation with me.</h3>
                         <div class="contact-box-grid">
                             <div class="contact-sec-box zoom_in">
                                 <p class="call-us-contact">
@@ -890,10 +958,10 @@
                         <iframe class="map-iframe"
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1643.4296014242923!2d104.89157518104447!3d11.569316616514774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skh!4v1739878614140!5m2!1sen!2skh"
                                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <h3 class="creative brand got">Got Ideas? <span> We've got the skills</span></h3>
-                        <h3 class="visionary">We are the top creative agency for branding corp. We offer a full range of
-                            services to help clients improve their search engine rankings and drive more traffic to
-                            their websites.</h3>
+                        <h3 class="creative brand got">Got Ideas? <span> I have skills.</span></h3>
+                        <h3 class="visionary">
+                            If you have a project in mind, I would love to hear about it and see if I can help.
+                        </h3>
                         <form>
                             <div class="input-main">
                                 <div class="labal-input">
