@@ -274,7 +274,7 @@ canvas{
 header {
     border-radius: 30px;
     background: var(--section-background);
-    padding: 6px 30px;
+    padding: 6px 19px;
     margin: 30px 0 30px auto;
     display: flex;
     align-items: center;
@@ -384,6 +384,31 @@ body.dark-mode .hireMe-svg-side {
     padding: 20px;
     animation: 2s ease-in-out 0s 1 slideInFromLeft;
 }
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-snow-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4); /* Adjust transparency */
+}
+
 .aryaBtn img {
     filter: var(--icons-filter);
 }

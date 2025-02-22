@@ -13,6 +13,13 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media_query.css">
+
+    <meta property=og:site_name content="La Seavyong" />
+    <meta property=og:title content="Yongg." />
+    <meta property=og:description content="Welcome to my profile!" />
+    <meta property=og:image content=https://laseavyong-stg.netlify.app/assets/images/svg/yong.svg />
+    <meta property=og:type content=article />
+    <meta property=og:url content=https://laseavyong.com/ />
 </head>
 
 <body>
@@ -38,9 +45,12 @@
     <div class="background-img-slider-SecOne">
         <div class="slider-section">
             <div class="slider-main">
-                <video autoplay muted loop class="background-snow-video">
-                    <source src="assets/video/video.mp4" type="video/mp4">
-                </video>
+                <div class="video-container">
+                    <video autoplay muted loop class="background-snow-video">
+                        <source src="assets/video/video.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -51,7 +61,6 @@
             <header>
                 <a href="index-1.html" class="main-header-logo">
                     <img class="logo" src="assets/images/svg/logo.svg" alt="logo">
-                    <span class="logo-text">La Seavyong</span>
                 </a>
                 <div class="aryaBtn-toggle-main mt-0">
                     <ul class="side-menu-ul" id="menu-list-header">
@@ -97,6 +106,7 @@
                         </a>
                         <div class="portfolio-girl-menu-main animated wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="10ms">
                             <img src="assets/images/home-images/portfolio-girl-menu.jpg" draggable="false" alt="">
+<!--                            <img src="https://dummyimage.com/210x210/000/fff" alt="portfolio-girl-menu">-->
                         </div>
                         <div class="list-menu mb-2 mt-2">
                             <p class="side-menu-arya">La Seavyong</p>
@@ -155,6 +165,9 @@
                                     Contact Me! <img src="assets/images/svg/hireMe-svg.svg" alt="download-svg">
                                 </a>
                             </div>
+                        </div>
+                        <div class="list-menu">
+                            <p id="quote" class="text-center"></p>
                         </div>
                     </div>
                 </div>
@@ -943,6 +956,7 @@
     <script src="assets/javascript/script.js"></script>
     <script src="assets/javascript/script.js"></script>
     <script src="assets/javascript/custom.js"></script>
+    <script src="assets/javascript/quote.js"></script>
 </body>
 
 </html>
