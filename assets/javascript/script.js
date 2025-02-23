@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const progressSection = document.querySelector("#progress");
     const observerOptions = { threshold: 0.3 };
 
-    const observer = new IntersectionObserver(function (entries, observer) {
+    const observers = new IntersectionObserver(function (entries, observer) {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 progressItems.forEach((item, index) => {
@@ -206,11 +206,11 @@ document.addEventListener("DOMContentLoaded", function () {
                         }
                     }, 20);
                 });
-                observer.unobserve(progressSection);
+                observers.unobserve(progressSection);
             }
         });
     }, observerOptions);
-    observer.observe(progressSection);
+    observers.observe(progressSection);
 });
 /*------------------------------------- Bottom To Top Button -------------------------------------*/
 document.addEventListener('DOMContentLoaded', function () {
